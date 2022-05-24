@@ -1,6 +1,4 @@
-## Non-Recursive-Predictive-Parser and SLR-Parser
-
----
+# Non-Recursive-Predictive-Parser and SLR-Parser
 
 **this repo is "monorepo" meaning it will combine a independent projects
 under "one repo", Non-recursive-predictive-parser and slr-parser**
