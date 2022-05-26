@@ -48,7 +48,7 @@ initial values are as follows:
 
 an error is detected during predictive parsing when the terminal on top of the stack does not match the next input symbol or when the nonTerminal is on the top of that stack and the next input symbol their lookup in the table does yield an empty entry.
 
-there is error recovery modes, "Panic Mode" and "Phrase-level Recovery".
+there is two error recovery modes, "Panic Mode" and "Phrase-level Recovery".
 
 Panic Mode is based on the idea of skipping over symbols on the input until a token in selected set of synchronizing tokens appears.
 
