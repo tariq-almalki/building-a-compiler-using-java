@@ -14,10 +14,10 @@ under "one repo", Non-recursive-predictive-parser and slr-parser**
 
 this project was a part of a course that I took titled "compiler construction".
 
-the main approach that was used to teach the student in this course
-was the mainly explanation of doctor and the slides, it was sufficient but I have a habit of reading books, because I believe if you are doing things people aren't doing then you will discover/learn things people around you will never know, because it's not like everybody reads books and it's normalize no one got time really especially when are taking 4 courses besides compiler, it's hard thing and it's draining really, but I'm lucky that I got time so I love investing in myself, so anyhow the book titled "Compilers, Principles, Techniques, & Tools by Alfred V. Aho" and it was 1000+ page! I read about 300 page, it covered much of what we took in the course.
+the main approachs that was used to teach the students in this course
+was mainly by either Doctor's explanation or the students reading the slides by themselves, it was sufficient but I developed a habit of reading books, because I believe if you are doing things people aren't doing then you will discover/learn things people around you will never know, because it's not like everybody here reads books, no one got time really especially when are taking 4 courses besides compiler, it's hard thing and it's draining really, but I'm lucky that I got time so I love investing in myself, so anyhow the book titled "Compilers, Principles, Techniques, & Tools by Alfred V. Aho" and it is 1000+ page! I read about 300 page, it covered much of what we took in the course.
 
-reading the book helped me so much with the building of the project, you will read the code will basically understand nothing if you didn't have any clue about java recent feature like streams, also Regular Expressions is used heavily on this project, using it was crucial really, knowing Regex saved a ton of time so thanks for Regular Expressions.
+actually it was a good move that I decided to read the book, hesitant at the beginning but I decide to read itanyways. if you read the code you might find it difficult to read and understand, well maybe because you need to brush up your java 8+ knowledge or probably the lack of comments... streams and Regular Expressions was used heavily in this project, using it was crucial really, knowing streams and regex saved a ton of time so thanks for Streams and Regular Expressions.
 
 ### Non-Recursive-Predictive-Parser
 
@@ -40,11 +40,11 @@ initial values are as follows:
 -   stack will contain the start symbol of the grammar above the dollar sign
 -   input buffer will hold the complete string
 
-#### algorithm:
+### algorithm:
 
 ![algorithm](./README%20pics/NRPP%20pics/algorithm.png)
 
-#### Error Recovery in Predictive Parsing
+### Error Recovery in Predictive Parsing
 
 an error is detected during predictive parsing when the terminal on top of the stack does not match the next input symbol or when the nonTerminal is on the top of that stack and the next input symbol their lookup in the table does yield an empty entry.
 
@@ -58,7 +58,7 @@ Phrase-level Recovery is implemented by filling in the blank entries in the pred
 
 These routines may change, insert, or delete symbols on the input and issue appropriate error messages. They may also pop from the stack. Alteration of stack symbols or the pushing of new symbols onto the stack is questionable for several reasons.
 
-#### Example output
+### Example output
 
 ![example-one](./README%20pics/NRPP%20pics/NRPP-result.png)
 
@@ -74,11 +74,11 @@ for a grammar to be LR it is sufficient that left-to-right shift-reduce parser b
 here is aa model of an LR parser:
 ![model-SP](./README%20pics/SP%20pics/model-of-LR-parser.png)
 
-#### algorithm:
+### algorithm:
 
 ![algorithm](./README%20pics/SP%20pics/SLR%20Algorithm.png)
 
-#### Example output
+### Example output
 
 ![example-two](./README%20pics/SP%20pics/slr-result.png)
 
