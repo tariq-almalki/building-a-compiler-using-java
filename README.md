@@ -14,7 +14,7 @@ under "one repo", Non-recursive-predictive-parser and slr-parser**
 
 this project was a part of a course that I took titled "compiler construction".
 
-the main approachs that was used to teach the students in this course
+the main approaches that was used to teach the students in this course
 was mainly by either Doctor's explanation or the students reading the slides by themselves, it was sufficient but I developed a habit of reading books, because I believe if you are doing things people aren't doing then you will discover/learn things people around you will never know, because it's not like everybody here reads books, no one got time really especially when are taking 4 courses besides compiler, it's hard thing and it's draining really, but I'm lucky that I got time so I love investing in myself, so anyhow the book titled "Compilers, Principles, Techniques, & Tools by Alfred V. Aho" and it is 1000+ page! I read about 300 page, it covered much of what we took in the course.
 
 it was a good move that I decided to read the book, actually I was hesitant at the beginning but I decided to read it anyways. if you read the code you might find it difficult to read and understand, well maybe because you need to brush up your java 8+ knowledge or probably the lack of comments... streams and Regular Expressions was used heavily in this project, using it was crucial really, knowing streams and regex saved a ton of time so thanks for Streams and Regular Expressions.
